@@ -1,0 +1,20 @@
+{
+  "name": "arcorautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testArcor1" : "npx playwright test tests/arcorMain.spec.js --headed"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.14.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
